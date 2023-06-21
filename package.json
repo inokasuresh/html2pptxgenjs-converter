@@ -1,0 +1,36 @@
+{
+  "name": "html2pptxgenjs-converter",
+  "version": "1.0.0",
+  "description": "Convert HTML text to support pptxgenjs library",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config ./scripts/rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inokasuresh/html2pptxgenjs-converter.git"
+  },
+  "keywords": [
+    "html2ppt",
+    "html2pptxgenjs",
+    "htmltext2ppt",
+    "htmltext2pptxgenjs",
+    "htmltoppt",
+    "htmltopptpptxgenjs",
+    "htmltexttoppt",
+    "htmltexttopptpptxgenjs"
+  ],
+  "author": "Inoka Suresh Geenath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inokasuresh/html2pptxgenjs-converter/issues"
+  },
+  "homepage": "https://github.com/inokasuresh/html2pptxgenjs-converter#readme",
+  "dependencies": {
+    "css": "^3.0.0",
+    "htmlparser2": "^9.0.0",
+    "parse-color": "^1.0.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
