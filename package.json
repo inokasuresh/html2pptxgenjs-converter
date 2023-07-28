@@ -1,6 +1,6 @@
 {
   "name": "html2pptxgenjs-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert HTML text to support pptxgenjs library",
   "main": "./src/index.js",
   "scripts": {
