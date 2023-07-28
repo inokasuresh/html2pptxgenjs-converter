@@ -226,6 +226,7 @@ Context.prototype.toPptxTextOptions = function () {
     options.bold = !!this.b;
     options.breakLine = !!this.break;
     options.color = this.color;
+    options.highlight = this.fill;
     this.fill && (options.fill = this.fill);
     options.fontFace = this.fontFace;
     options.fontSize = this.fontSize || this.defaultFontSize;

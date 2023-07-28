@@ -30,7 +30,7 @@ The following tags are supported:
     - ```title``` = title
 - ```<b>```: bold
 - ```<strong>```: bold
-- ```<b>```: line break
+- ```<br>```: line break
 - ```<del>```: strikethrough (same as ```<s>```)
 - ```<font>```: font
     - ```color```: color
@@ -38,6 +38,7 @@ The following tags are supported:
     - ```size```: size (see Size)
 - ```<h1>```...```<h6>```: header
 - ```<i>```: italic
+- ```<em>```: italic
 - ```<ol>```: ordered list
 - ```<p>```: paragraph (see Options)
 - ```<pre>```: preformatted text (see Options)
@@ -58,8 +59,8 @@ All elements support the following attributes:
 html2pptxgenjs-converter offers basic support for styling using CSS (see Options) and inline styles, also when running in Node.js.
 
 The following properties are supported:
-- ```background```: background color *only*
-- ```background-color```: background color
+- ```background```: background color *only*/ text highlight
+- ```background-color```: background color/ text highlight
 - ```color```: color
 - ```font-family```: font face, e.g. "Arial"
 - ```font-size```: font size (see Size)

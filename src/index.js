@@ -68,6 +68,9 @@ export const htmlToPptxText = (html, options) => {
             case 'u':
                 context[name] = true;
                 break;
+            case 'em':
+                context['i'] = true;
+                break;
             case 'strong':
                 context['b'] = true;
                 break;
